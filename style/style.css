@@ -1,0 +1,72 @@
+body {
+  text-align: center;
+  animation: 5s ease-in-out alternate infinite bg;
+}
+@keyframes bg {
+  0% {
+    background: #0070FF;
+  }
+  25% {
+    background: #00F2FF;
+  }
+  50% {
+    background: #FF00E9;
+  }
+  75% {
+    background: #FF0D00;
+  }
+  100% {
+    background: #FF8F00;
+  }
+}
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 200px;
+  text-shadow: 5px 5px 0px white;
+  animation: 5s ease-in-out alternate infinite nice;
+}
+@keyframes nice {
+  0% {
+    color: #FFCA53;
+    transform: rotate(-15deg);
+    text-shadow: 5px 5px 0px white;
+  }
+  25% {
+    color: #FF0D00;
+  }
+  50% {
+    color: #00FF16;
+    text-shadow: 0px 50px 0px gray;
+  }
+  75% {
+    color: #00F2FF;
+  }
+  100% {
+    color: #0070FF;
+    transform: rotate(15deg);
+    text-shadow: -5px 5px 0px black;
+  }
+}
+#text {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  animation: 5s ease-in-out alternate infinite text;
+}
+@keyframes text {
+  0% {
+    color: #FFCA53;
+  }
+  25% {
+    color: #FF0D00;
+  }
+  50% {
+    color: #00FF16;
+  }
+  75% {
+    color: #00F2FF;
+  }
+  100% {
+    color: #0070FF;
+  }
+}
+}
